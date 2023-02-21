@@ -1,0 +1,144 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.direita {
+    display: inline-block;
+    background: rgba(93, 93, 125, .16);
+    width: 30%;
+    position: absolute;
+    left: 949px;
+    height: 100vh;
+    width: 50vw;
+
+}
+
+header {
+    margin: 24px 0 151px 57px;
+}
+
+a {
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+/* .work {
+    color: #5D5D7D;
+    opacity:s.4;
+} */
+
+img {
+    position: relative;
+    right: 145px;
+}
+
+
+.esquerda {
+    display: inline-block;
+    width: 70%;
+    margin: 381px 0 0 136px;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+    width: 368px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    opacity: 0.6;
+    width: 540px;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    border: 0;
+    border-radius: 30px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .direita {
+        position: absolute;
+        top: 49%;
+        right: 0px;
+        bottom: 0;
+        left: 0;
+        width: 113%;
+
+    }
+
+
+    .esquerda {
+        height: 40vh;
+        width: 100%;
+        display: block;
+        margin: 40px 39px 0 40px;
+    }
+
+    img {
+        position: static;
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-weight: 300px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    button {
+        margin: auto;
+        display: block;
+    }
+
+    img {
+        margin: 46px 52px;
+
+    }
+
+    header {
+        display: none;
+    }
+
+
+
+
+
+}
